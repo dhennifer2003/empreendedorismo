@@ -55,7 +55,7 @@
     h1{
         padding: 168px 0 49px;
         width: 100%;
-        color: #13293D;
+        color: #235233;
         text-align: center;
         text-decoration: none;
         font-weight: bolder;
@@ -78,6 +78,30 @@
 
     main h2{
         margin-top: 20px;
+        font-size: 30px;
+        font-weight: 700px;
+        color: #235233;
+    }
+
+    main .maisInformacoes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid #6BAE86;
+        border-radius: 15px;
+        width: 90%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    main p{
+        font-size: 14px;
+        color: rgb(90, 88, 88);
     }
 
     main .criar_Conta{
@@ -121,6 +145,75 @@
     .mapa img{
         width: 700px;
         height: 300px;
+    }
+
+    .cardDenuncia{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #E9F7D7;
+        border: 1px solid #9D9CE4;
+        border-radius: 15px;
+        width: 90%;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .colunaDenuncia, .cardDenuncia a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .colunaDenuncia h2{
+        font-size:20px;
+        font-weight: 700px;
+        color: black;
+    }
+
+    .colunaDenuncia p{
+        font-size:16px;
+        color: black;
+    }
+
+    .cardDenuncia a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .mapaIncidencia{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+        width: 30%;
+        height: 30%;
+        align-items: center;
+    }
+
+    .escalaIncidencia{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .escalaIncidencia p{
+        font-size:18px;
+        color: black;
+        font-weight: 700px;
+    }
+    .escalaIncidenciaImg{
+        width: 50%;
+        height: 20px;
     }
 
     /*rodapé*/
